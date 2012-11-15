@@ -1,0 +1,28 @@
+{
+  "name": "kicker",
+  "version": "0.0.1",
+  "description": "a static project hoster",
+  "main": "app.js",
+  "bin": {
+    "kicker": "bin/kicker.js"
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@f2e.dp:kicker.git"
+  },
+  "keywords": [
+    "static",
+    "host",
+    "server",
+    "project"
+  ],
+  "author": "Spud Hsu",
+  "license": "BSD"
+}
