@@ -7,6 +7,9 @@
 var kicker = require('../lib/kicker.js');
 var program = require('commander');
 
+process.on("uncaughtException",function(e){
+	console.log(e);
+});
 
 program
   .version('0.0.1')
