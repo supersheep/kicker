@@ -10,6 +10,11 @@
     "doc": "doc",
     "test": "test"
   },
+	"dependencies":{
+    "request":"2.12.0",
+    "express":"3.0.1",
+    "underscore":"1.4.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
