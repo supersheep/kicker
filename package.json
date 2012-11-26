@@ -12,6 +12,7 @@
   },
 	"dependencies":{
     "request":"2.12.0",
+    "commander":"*",
     "express":"3.0.1",
     "underscore":"1.4.2"
   },
